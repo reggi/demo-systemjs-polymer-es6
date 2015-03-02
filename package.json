@@ -1,0 +1,22 @@
+{
+  "name": "demo-systemjs-polymer-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "jspm": {
+    "directories": {
+      "lib": ".",
+      "packages": "jspm_packages"
+    },
+    "dependencies": {
+      "babel": "npm:babel@^4.6.4",
+      "polymer/polymer": "github:polymer/polymer@^0.5.5",
+      "underscore": "npm:underscore@^1.8.2"
+    }
+  }
+}
